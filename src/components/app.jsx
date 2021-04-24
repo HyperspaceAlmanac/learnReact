@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
+import TitleBar from './TitleBar/titleBar';
 
 class App extends Component {
     state = { }
     render() {
         return (
-            <h1>Our React App Using a Component</h1>
+            <div className="container-fluid">
+                <TitleBar />
+            </div>
         );
     }
 }
